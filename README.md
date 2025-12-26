@@ -89,3 +89,19 @@ The goal of this project is to provide simple, fast, and reliable tools within a
   <img src="screenshots/screen_011.png" width="420" />
 </p>
 
+---
+
+## ⭐ Support the Project | حمایت از پروژه
+
+### 🇬🇧 English
+If you found this project useful or interesting, please consider giving it a **⭐ Star** on GitHub.  
+You can also **Fork** the repository to experiment, improve it, or build your own version.  
+Your support and feedback are a huge motivation to keep developing and improving this project 🚀
+
+---
+
+### 🇮🇷 فارسی
+اگر این پروژه برات مفید یا جالب بوده، با دادن یک **⭐ ستاره** در گیت‌هاب از من حمایت کن.  
+همچنین می‌تونی پروژه رو **Fork** کنی و نسخه‌ی شخصی خودت رو بسازی یا توسعه بدی.  
+حمایت و بازخورد شما بزرگ‌ترین دلگرمی برای ادامه‌ی توسعه‌ی این پروژه است 🙏✨
+
