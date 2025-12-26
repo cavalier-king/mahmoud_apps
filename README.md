@@ -43,27 +43,49 @@ This application is a collection of practical tools designed and developed for m
 The project is currently under active development, and new features will be added progressively.  
 The goal of this project is to provide simple, fast, and reliable tools within a unified application.
 
-## 📸 App Screenshots | اسکرین‌شات‌ها
+## 📸 Screenshots | اسکرین‌شات‌ها
 
 <p align="center">
-  <img src="screenshots/screen_01.png" width="250"/>
-  <img src="screenshots/screen_02.png" width="250"/>
-  <img src="screenshots/screen_03.png" width="250"/>
+  <img src="screenshots/screen_01.png" width="420" />
 </p>
 
 <p align="center">
-  <img src="screenshots/screen_04.png" width="250"/>
-  <img src="screenshots/screen_05.png" width="250"/>
-  <img src="screenshots/screen_06.png" width="250"/>
+  <img src="screenshots/screen_02.png" width="420" />
 </p>
 
 <p align="center">
-  <img src="screenshots/screen_07.png" width="250"/>
-  <img src="screenshots/screen_08.png" width="250"/>
-  <img src="screenshots/screen_09.png" width="250"/>
+  <img src="screenshots/screen_03.png" width="420" />
 </p>
 
 <p align="center">
-  <img src="screenshots/screen_010.png" width="250"/>
-  <img src="screenshots/screen_011.png" width="250"/>
+  <img src="screenshots/screen_04.png" width="420" />
 </p>
+
+<p align="center">
+  <img src="screenshots/screen_05.png" width="420" />
+</p>
+
+<p align="center">
+  <img src="screenshots/screen_06.png" width="420" />
+</p>
+
+<p align="center">
+  <img src="screenshots/screen_07.png" width="420" />
+</p>
+
+<p align="center">
+  <img src="screenshots/screen_08.png" width="420" />
+</p>
+
+<p align="center">
+  <img src="screenshots/screen_09.png" width="420" />
+</p>
+
+<p align="center">
+  <img src="screenshots/screen_010.png" width="420" />
+</p>
+
+<p align="center">
+  <img src="screenshots/screen_011.png" width="420" />
+</p>
+
