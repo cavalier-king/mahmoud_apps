@@ -33,6 +33,15 @@ A multi-platform Flutter application built for **Android, iOS, Web, Windows, and
 - Dart  
 
 ---
+🇮🇷 **فارسی**  
+این اپلیکیشن یک مجموعه از ابزارهای کاربردی است که برای استفاده در موبایل طراحی و توسعه داده شده است.  
+پروژه در حال حاضر در مرحله‌ی توسعه فعال قرار دارد و امکانات جدید به‌صورت تدریجی به آن اضافه خواهند شد.  
+هدف این پروژه ارائه ابزارهای ساده، سریع و قابل‌اعتماد در قالب یک اپلیکیشن یکپارچه است.
+
+🇬🇧 **English**  
+This application is a collection of practical tools designed and developed for mobile use.  
+The project is currently under active development, and new features will be added progressively.  
+The goal of this project is to provide simple, fast, and reliable tools within a unified application.
 
 ## 📸 Screenshots | اسکرین‌شات‌ها
 (coming soon)
