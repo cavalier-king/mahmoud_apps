@@ -43,6 +43,12 @@ This application is a collection of practical tools designed and developed for m
 The project is currently under active development, and new features will be added progressively.  
 The goal of this project is to provide simple, fast, and reliable tools within a unified application.
 
+## ⬇️ Download (Android)
+
+Latest release:
+https://github.com/cavalier-king/mahmoud_apps/releases/latest
+
+
 ## 📸 Screenshots | اسکرین‌شات‌ها
 
 <p align="center">
