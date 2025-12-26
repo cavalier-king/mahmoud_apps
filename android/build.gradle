@@ -1,0 +1,69 @@
+buildscript {
+    ext.kotlin_version = '1.9.10'
+    repositories {
+        google()
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:8.1.0'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+rootProject.buildDir = '../build'
+
+subprojects { subProj ->
+    subProj.buildDir = "${rootProject.buildDir}/${subProj.name}"
+}
+
+/*
+ ✅ FINAL FIX:
+ - Gradle runs on JDK 17 (via android/gradle.properties org.gradle.java.home)
+ - BUT we force ALL Android modules/plugins to compile with Java/Kotlin target 1.8
+ - Using afterEvaluate, registered BEFORE evaluationDependsOn(':app') to avoid "already evaluated" crash.
+*/
+subprojects { subProj ->
+
+    // Force Kotlin bytecode target for ALL modules/plugins
+    subProj.tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile).configureEach {
+        kotlinOptions {
+            jvmTarget = '1.8'
+        }
+    }
+
+    // Force Java bytecode target for ALL modules/plugins
+    subProj.tasks.withType(JavaCompile).configureEach {
+        sourceCompatibility = '1.8'
+        targetCompatibility = '1.8'
+    }
+
+    // Force Android compileOptions AFTER the module config is applied
+    subProj.afterEvaluate {
+        if (subProj.plugins.hasPlugin('com.android.application') || subProj.plugins.hasPlugin('com.android.library')) {
+            def androidExt = subProj.extensions.findByName("android")
+            if (androidExt != null) {
+                androidExt.compileOptions {
+                    sourceCompatibility JavaVersion.VERSION_1_8
+                    targetCompatibility JavaVersion.VERSION_1_8
+                }
+            }
+        }
+    }
+}
+
+// این باید بعد از ثبت afterEvaluate بیاد تا خطای already evaluated نده
+subprojects {
+    project.evaluationDependsOn(':app')
+}
+
+tasks.register("clean", Delete) {
+    delete rootProject.buildDir
+}

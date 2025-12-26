@@ -1,0 +1,59 @@
+name: mahmoud_apps
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+2
+
+environment:
+  sdk: '>=3.1.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # localization
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.18.1
+
+  # ui
+  http: ^1.1.0
+  connectivity_plus: ^5.0.2
+  vpn_detector: ^1.1.1
+  cupertino_icons: ^1.0.2
+
+  # settings persistence
+  shared_preferences: ^2.2.3
+
+  # tools inside the app
+  mobile_scanner: ^4.0.1
+  flutter_secure_storage: ^9.2.2
+  crypto: ^3.0.3
+  uuid: ^4.2.2
+  qr_flutter: ^4.1.0
+  path_provider: ^2.1.2
+  image_gallery_saver2: ^2.0.4
+  permission_handler: ^11.0.1
+
+  # share / open links
+  share_plus: ^7.2.1
+  url_launcher: ^6.2.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  generate: true
+  uses-material-design: true
+  assets:
+    - assets/icon/icon.png
+    - assets/home/
+
+flutter_launcher_icons:
+  android: true
+  image_path: "assets/icon/icon.png"
+  adaptive_icon_background: "#0B1020"
+  adaptive_icon_foreground: "assets/icon/icon.png"
